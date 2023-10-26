@@ -10,12 +10,12 @@ Example run
 
 ./keygen 543 <---- generates a key of 543 characters, add another argument to output to a file
 
-./enc_server 50864 & <---- encryption server running in the background ( & ) at port 50864
+./enc_server 50864 & <---- encryption server running in the background ( & ) at port 50864                                                                                                           
 ./enc_client plaintext key 50864 
 
 /* OUTPUT WILL BE CIPHTEXT */
 
-./dec_server 51111 &
+./dec_server 51111 &                                                                                                                                                                        
 ./dec_client CIPHTEXT key 51111
 
 /* OUTPUT WILL BE decrypted plaintext */
